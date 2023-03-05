@@ -1,0 +1,63 @@
+.numpad{
+    display: grid;
+    grid-template-areas: 
+        "clear divide multiply subtract"
+        "seven eight nine add"
+        "four five six add"
+        "one two three equals"
+        "zero zero period equals" ;
+    height: 400px;
+    width: 300px;
+}
+
+#nine{
+    grid-area: nine;
+}
+#eight{
+    grid-area: eight;
+}
+#seven{
+    grid-area: seven;
+}
+#six{
+    grid-area: six;
+}
+#five{
+    grid-area: five;
+}
+#four{
+    grid-area: four;
+}
+#three{
+    grid-area: three;
+}
+#two{
+    grid-area: two;
+}
+#one{
+    grid-area: one;
+}
+#zero{
+    grid-area: zero;
+}
+#clear{
+    grid-area: clear;
+}
+#add{
+    grid-area: add;
+}
+#subtract{
+    grid-area: subtract;
+}
+#multiply{
+    grid-area: multiply;
+}
+#divide{
+    grid-area: divide;
+}
+#equals{
+    grid-area: equals;
+}
+#period{
+    grid-area: period;
+}
